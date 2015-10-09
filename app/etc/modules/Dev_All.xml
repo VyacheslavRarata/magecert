@@ -9,5 +9,9 @@
             <active>true</active>
             <codePool>local</codePool>
         </Dev_Tool>
+        <Dev_Article>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Dev_Article>
     </modules>
 </config>

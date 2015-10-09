@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Dev_Article>
+            <version>0.0.1</version>
+        </Dev_Article>
+    </modules>
+    <frontend>
+        <routers>
+            <article>
+                <use>standard</use>
+                <args>
+                    <module>Dev_Article</module>
+                    <frontName>article</frontName>
+                </args>
+            </article>
+        </routers>
+    </frontend>
+</config>
