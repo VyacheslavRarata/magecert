@@ -1,6 +1,9 @@
 <?php
-class Dev_Tool_TollController extends Mage_Core_Controller_Front_Action{
+class Dev_Tool_ToolController extends Mage_Core_Controller_Front_Action{
 
+    public function indexAction(){
+        print ($this -> show());
+    }
     public function toolAction(){
         print ($this -> show());
     }
